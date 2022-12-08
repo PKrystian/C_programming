@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int print(int w, int h, int arr[][h])
 {
     int i, j;
@@ -11,7 +12,6 @@ int print(int w, int h, int arr[][h])
 		printf("\n");
 	}
 }
- 
 int main()
 {
 	int w = 3, h = 3;
